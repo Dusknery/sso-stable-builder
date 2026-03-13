@@ -1,10 +1,8 @@
+import PlannerPage from "./pages/PlannerPage";
+import "./styles/app.css";
+
 function App() {
-  return (
-    <div>
-      <h1>SSO Stable Builder</h1>
-      <p>Stable and yard planner for SSO RRP</p>
-    </div>
-  );
+  return <PlannerPage />;
 }
 
 export default App;
